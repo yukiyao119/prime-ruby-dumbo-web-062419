@@ -1,6 +1,9 @@
 # Add  code here!
 def prime?(n)
-  for num in 1..floor(Math.sqrt(n))
+  mid = floor(Math.sqrt(n)
+  array = (1..mid).to_a 
+  array.each do |x|
+    
     if n % num == 0 
       return false
     else 
