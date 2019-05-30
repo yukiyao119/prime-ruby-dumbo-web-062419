@@ -8,4 +8,5 @@ def prime?(n)
     else 
       return ture 
     end
+  end
 end
