@@ -3,8 +3,7 @@ def prime?(n)
   mid = floor(Math.sqrt(n)
   array = (1..mid).to_a 
   array.each do |x|
-    
-    if n % num == 0 
+    if n % x == 0 
       return false
     else 
       return ture 
